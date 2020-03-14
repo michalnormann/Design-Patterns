@@ -1,4 +1,4 @@
-package builder.CarExample;
+package builder.carBuilderExample;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,7 +1,7 @@
-package builder.PhoneExample;
+package builder.phoneBuilderExample;
 
-import static builder.PhoneExample.Processor.Apple_A11_Bionic;
-import static builder.PhoneExample.Processor.Samsung_Exynos_8895;
+import static builder.phoneBuilderExample.Processor.Apple_A11_Bionic;
+import static builder.phoneBuilderExample.Processor.Samsung_Exynos_8895;
 
 public class Application {
     public static void main(String[] args) {

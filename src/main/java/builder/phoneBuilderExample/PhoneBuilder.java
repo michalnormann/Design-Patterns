@@ -1,4 +1,4 @@
-package builder.PhoneExample;
+package builder.phoneBuilderExample;
 
 public class PhoneBuilder {
 

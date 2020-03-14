@@ -1,7 +1,7 @@
-package builder.CarExample;
+package builder.carBuilderExample;
 
-import static builder.CarExample.FuelType.DIESEL;
-import static builder.CarExample.FuelType.PETROL;
+import static builder.carBuilderExample.FuelType.DIESEL;
+import static builder.carBuilderExample.FuelType.PETROL;
 
 public class Application {
     public static void main(String[] args) {

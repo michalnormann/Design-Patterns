@@ -1,4 +1,4 @@
-package builder.CarExample;
+package builder.phoneBuilderExample;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,10 +7,10 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Car {
+public class Phone {
     private String mark;
     private String model;
-    private Engine engine;
-    private int yearOfProduction;
-    private String colour;
+    private Processor processor;
+    private int ram;
+    private boolean camera;
 }
