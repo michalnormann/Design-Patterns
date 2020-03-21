@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd9447a4-9130-4c3d-b0f3-4c3ce2de5c84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/firstFactoryExample/CargoShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/firstFactoryExample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/firstFactoryExample/Ship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/firstFactoryExample/ShipFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/firstFactoryExample/ShipType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/firstFactoryExample/TransportShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/firstFactoryExample/WarShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/firstSingletonExample/EnumSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/firstSingletonExample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/firstSingletonExample/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/secondSingletonExample/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/secondSingletonExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/CapitalizeFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/FormatterContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/LowerCaseFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/TextFormatterStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/UpperCaseFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/secondStrategyExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/secondStrategyExample/Size.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,25 +26,79 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/singleton/secondSingletonExample/Logger.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strategy/secondStrategyExample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strategy/secondStrategyExample/Size.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/singleton/secondSingletonExample/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            <state relative-caret-position="272">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/FormatterContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
               <folding>
-                <element signature="e#106#107#0" expanded="true" />
-                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/UpperCaseFormatter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <folding>
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/LowerCaseFormatter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding>
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/CapitalizeFormatter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+              <folding>
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +109,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -71,17 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/builder/EngineBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/builder/CarBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/builder/CarExample/CarBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/builder/PhoneExample/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/builder/PhoneExample/Ram.java" />
-        <option value="$PROJECT_DIR$/src/main/java/builder/PhoneExample/Phone.java" />
-        <option value="$PROJECT_DIR$/src/main/java/builder/PhoneExample/Processor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/builder/PhoneExample/PhoneBuilder.java" />
-        <option value="$PROJECT_DIR$/gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/observer/firstExample/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer/firstExample/Client2.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer/firstExample/Client1.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer/secondExample/CzytnikTemperatury.java" />
@@ -122,6 +161,17 @@
         <option value="$PROJECT_DIR$/src/main/java/singleton/firstSingletonExample/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton/secondSingletonExample/Logger.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton/secondSingletonExample/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/singleton/thirdSingletonExample/SingletonExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/singleton/thirdSingletonExample/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy/Size.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy/secondStrategyExample/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/TextFormatterStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/CapitalizeFormatter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/LowerCaseFormatter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/FormatterContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/UpperCaseFormatter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/Client.java" />
       </list>
     </option>
   </component>
@@ -217,7 +267,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Design-Patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -225,8 +275,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-              <item name="secondSingletonExample" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="firstStrategyExample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Design-Patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -270,13 +320,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observer.secondExample.Main" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strategy.firstStrategyExample.Client" />
       <module name="normann.michal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observer.secondExample.*" />
+          <option name="PATTERN" value="strategy.firstStrategyExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -324,11 +374,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observer.firstExample.Main" />
+      <option name="MAIN_CLASS_NAME" value="strategy.secondStrategyExample.Main" />
       <module name="normann.michal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observer.firstExample.*" />
+          <option name="PATTERN" value="strategy.secondStrategyExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,11 +427,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +454,7 @@
       <workItem from="1584624687090" duration="663000" />
       <workItem from="1584733913301" duration="223000" />
       <workItem from="1584796901025" duration="38000" />
-      <workItem from="1584796954204" duration="1903000" />
+      <workItem from="1584796954204" duration="4194000" />
     </task>
     <task id="LOCAL-00001" summary="nowy gitignore">
       <created>1584210658025</created>
@@ -434,11 +484,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584278858010</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="singleton examples">
+      <created>1584800722008</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584800722008</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25651000" />
+    <option name="totallyTimeSpent" value="27942000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,7 +510,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -463,7 +520,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33152762" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25027084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -493,92 +550,10 @@
     <MESSAGE value="observer 2 examples" />
     <MESSAGE value="decorator" />
     <MESSAGE value="decorator secondExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="decorator secondExample" />
+    <MESSAGE value="singleton examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="singleton examples" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/builder/carBuilderExample/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/builder/carBuilderExample/EngineBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/builder/carBuilderExample/FuelType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/builder/phoneBuilderExample/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/builder/PhoneExample/Ram.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/builder/carBuilderExample/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/builder/phoneBuilderExample/Phone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/builder/phoneBuilderExample/PhoneBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/builder/carBuilderExample/CarBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/builder/phoneBuilderExample/Processor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -888,23 +863,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/firstSingletonExample/EnumSingleton.java">
+    <entry file="file://$PROJECT_DIR$/messages.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/thirdSingletonExample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="68">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
           <folding>
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/secondSingletonExample/Logger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/thirdSingletonExample/SingletonExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="153">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -915,8 +894,97 @@
           <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
           <folding>
             <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/secondSingletonExample/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/firstSingletonExample/EnumSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/secondStrategyExample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/secondStrategyExample/Size.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/TextFormatterStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/CapitalizeFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/LowerCaseFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/UpperCaseFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/FormatterContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/firstStrategyExample/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
